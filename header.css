@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: cursive;
+}
+
+.logo{
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+}
+
+.navs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    gap: 2rem;
+}
+
+.nav{
+    color: yellow;
+    font-weight: 600;
+    font-size: 19px;
+    cursor:pointer;
+}
+
+.sign{
+    background-color:white;
+    color: red;
+    width: 90px;
+    height: 35px;
+    border: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign:hover{
+    background-color: white
+}
